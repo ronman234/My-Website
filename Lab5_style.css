@@ -1,0 +1,18 @@
+﻿body {margin: 0;}
+body>header {text-align: center}
+body>header>nav>ul 
+{
+	margin: 0;
+	padding: 0;
+	background-color: DeepSkyBlue;
+	list-style-type: none;
+}
+body>header>nav>ul>li:hover {background-color: Red}
+body>header>nav>ul>li:active {background-color: Black}
+body>header>nav>ul>li>a
+{
+	display: block;
+	padding: 1em;
+	color: White;
+	text-decoration: none;
+}
