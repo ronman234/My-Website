@@ -2,7 +2,7 @@
 body>header {text-align: center}
 body>header>nav>ul 
 {
-	margin: 0;
+	margin: 50;
 	padding: 0;
 	background-color: DeepSkyBlue;
 	list-style-type: none;
