@@ -2,36 +2,54 @@
 
 <html>
 <head>
-		<title>My Website</title>
-		<link rel = "stylesheet" href = "Lab5_style.css">
-	</head>
-	<body>
-		<header>
-			<h1> My Website </h1>
-			<nav>
-				<ul>					
-					<li><a href = "Lab1.html"> Lab 1 </a></li>
-					<li><a href = "Lab2.html"> Lab 2 </a></li>
-					<li><a href = "Lab4.html"> Lab 4 </a></li>
-					<li><a href = "Lab5.html"> Lab 5 </a></li>
-				</ul>
-			</nav>
-		</header>
+	<title>My Website</title>
+	<link rel = "stylesheet" href = "Lab5_style.css">
+	<style>
+		body>header>nav>ul
+		{
+			margin: 50;
+			padding: 0;
+			background-color: DeepSkyBlue;
+			list-style-type: none;
+		}
+		body>header>nav>ul>li:hover {background-color: Red}
+		body>header>nav>ul>li:active {background-color: Black}
+		body>header>nav>ul>li>a
+		{
+			display: block;
+			padding: 1em;
+			color: White;
+			text-decoration: none;
+			text-decoration-style: wavy;
+		}
+	<style>
+</head>
+<body>
+	<header>
+		<h1> My Website </h1>
+		<nav>
+			<ul>					
+				<li><a href = "Lab1.html"> Lab 1 </a></li>
+				<li><a href = "Lab2.html"> Lab 2 </a></li>
+				<li><a href = "Lab4.html"> Lab 4 </a></li>
+				<li><a href = "Lab5.html"> Lab 5 </a></li>
+			</ul>
+		</nav>
+	</header>
 
-		<header>
-			<main>
-				<h1>Main Page</h1>
-				<p>Welcome to my main page</p>
-			</main>
-		</header>
+	<header>
+		<main>
+			<h1>Main Page</h1>
+			<p>Welcome to my main page</p>
+		</main>
+	</header>
 		
-		<hr>
+	<hr>
 		
-		<blockquote>
-			<p> This website is used to show off different learning objectives</p> <br>
-			<p> for the CSUSB CSE 322 class</p><br>
-			<p> Each lab focuses on different topics. Please Enjoy</p>
-		</blockquote>
-
-	</body>
+	<blockquote>
+		<p> This website is used to show off different learning objectives</p> <br>
+		<p> for the CSUSB CSE 322 class</p><br>
+		<p> Each lab focuses on different topics. Please Enjoy</p>
+	</blockquote>
+</body>
 </html>
