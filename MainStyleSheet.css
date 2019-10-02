@@ -6,14 +6,11 @@ body>header>nav>ul
 	padding: 0;
 	background-color: DeepSkyBlue;
 	list-style-type: none;
-}
-body>header>nav>ul>li:hover {background-color: Red}
-body>header>nav>ul>li:active {background-color: Black}
-body>header>nav>ul>li
-{
 	width = "50";
 	height = "50";
 }
+body>header>nav>ul>li:hover {background-color: Red}
+body>header>nav>ul>li:active {background-color: Black}
 body>header>nav>ul>li>a
 {
 	display: block;
