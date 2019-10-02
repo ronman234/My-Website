@@ -16,8 +16,8 @@ body>header>nav>ul>li>a
 	color: White;
 	text-decoration: none;
 }
-body>table
+body>table.center
 {
-	color:red;
-	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
 }
